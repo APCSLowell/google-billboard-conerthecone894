@@ -5,7 +5,7 @@ public class GoogleBillboard {
 	public static void main(final String[] args) {
 		for(int i = 2; i < e.length(); i++){
 			if (isPrime(Long.parseLong(e.substring(i, i+10))) == true){
-				System.out.println(e.substring(i, i+10)); //prints when it finds a prime #
+				System.out.println(Long.parseLong(e.substring(i, i+10))); //prints when it finds a prime #
 				break;
   			}
 		}
